@@ -1,0 +1,24 @@
+This project builds an end-to-end pipeline that detects vehicles in aerial parking lot imagery and computes occupancy using computer vision and GIS analysis.
+
+By combining object detection (YOLO) with spatial analysis (ArcGIS Pro), the system automatically estimates how full a parking lot is from a single image.
+
+## Setup
+
+1. Create virtual environment:
+   python -m venv yolo-env
+
+2. Activate it:
+   source yolo-env/bin/activate  # Mac/Linux
+   yolo-env\Scripts\activate     # Windows
+
+3. Install dependencies:
+   pip install -r requirements.txt
+
+4. Download YOLO weights:
+   The model weights will be automatically downloaded on first run.
+
+   If needed, you can manually specify the model in the code:
+
+   ```python
+   from ultralytics import YOLO
+   model = YOLO("yolov8m.pt")
