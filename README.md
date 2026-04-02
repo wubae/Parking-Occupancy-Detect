@@ -5,7 +5,7 @@ By combining object detection (YOLO) with spatial analysis (ArcGIS Pro), the sys
 ## Setup
 
 1. Create virtual environment:
-   python -m venv yolo-env
+   `python -m venv yolo-env`
 
 2. Activate it:
    source yolo-env/bin/activate  # Mac/Linux
