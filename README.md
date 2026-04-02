@@ -61,17 +61,15 @@ Image → YOLO Detection → Bounding Boxes → Center Points → CSV → ArcGIS
 | :---: | :---: |
 | ![Points](data/screenshots/xy_points.png) |  ![Polygon](data/screenshots/polygon.png)|
 
+## Limitations
 
+- Uses non-georeferenced imagery (pixel-based alignment)
+- Detection accuracy depends on image resolution and model performance
+- No real-time processing
 
+## Future Improvements
 
-
-
-
-
-
-
-
-
-
-
-
+- Image tiling for better small-object detection
+- Fine-tuned YOLO model for aerial imagery
+- Real-time video integration
+- Dashboard for live occupancy tracking
