@@ -57,6 +57,9 @@ Image → YOLO Detection → Bounding Boxes → Center Points → CSV → ArcGIS
 | :---: | :---: |
 | ![Original](data/imagery/parking_lot.jpeg) |  ![Predict](runs/detect/predict/predicts.jpg) |
 
+| CSV -> XY Points (Green) | Polygon + Points |
+| :---: | :---: |
+| ![Points](data/screenshots/xy_points.png) |  ![Polygon](data/screenshots/polygon.png)|
 
 
 
