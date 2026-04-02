@@ -47,10 +47,12 @@ Image → YOLO Detection → Bounding Boxes → Center Points → CSV → ArcGIS
 
 ## Results
 
-| OBJECTID *  | Shape * | Join_Count | TARGET_FID | x_scaled | y_scaled | confidence | Shape_Length | Shape_Area | occupancy |
+| OBJECTID * | Shape * | Join_Count | TARGET_FID | x_scaled | y_scaled | confidence | Shape_Length | Shape_Area | occupancy |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Polygon | 95 | 1 | 0.397768 | 0.060156 | 0.831524 | 1.672571 | 0.170994 | 47.5 |
 
+## Screenshots
+![Original](/imagery/parking_lot.jpeg) ![Predict](/runs/detect/predict/predicts.png)
 
 
 
