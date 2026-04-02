@@ -1,0 +1,13 @@
+# Ignore YOLO model weights
+yolov8m.pt
+
+# Ignore virtual environment
+yolo-env/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.DS_Store
+.vscode/
