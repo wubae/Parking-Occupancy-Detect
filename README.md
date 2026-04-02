@@ -52,7 +52,7 @@ Image → YOLO Detection → Bounding Boxes → Center Points → CSV → ArcGIS
 | 1 | Polygon | 95 | 1 | 0.397768 | 0.060156 | 0.831524 | 1.672571 | 0.170994 | 47.5 |
 
 ## Screenshots
-![Original](/imagery/parking_lot.jpeg) ![Predict](/runs/detect/predict/predicts.png)
+![Original](imagery/parking_lot.jpeg) ![Predict](runs/detect/predict/predicts.png)
 
 
 
