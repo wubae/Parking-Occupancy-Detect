@@ -22,3 +22,48 @@ By combining object detection (YOLO) with spatial analysis (ArcGIS Pro), the sys
    ```python
    from ultralytics import YOLO
    model = YOLO("yolov8m.pt")
+
+## Tech Stack
+
+- Python
+- Ultralytics YOLOv8
+- OpenCV / PIL
+- ArcPy / ArcGIS Pro
+
+---
+
+This project uses:
+
+1. YOLOv8 (Ultralytics) to detect cars in an aerial image
+2. Python to extract detection coordinates
+3. ArcGIS Pro to:
+   - convert detections into spatial points
+   - define a parking lot boundary
+   - count cars inside the lot using spatial join
+
+## Pipeline
+
+Image → YOLO Detection → Bounding Boxes → Center Points → CSV → ArcGIS → Spatial Join → Occupancy %
+
+## Results
+
+| OBJECTID *  | Shape * | Join_Count | TARGET_FID | x_scaled | y_scaled | confidence | Shape_Length | Shape_Area | occupancy |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Polygon | 95 | 1 | 0.397768 | 0.060156 | 0.831524 | 1.672571 | 0.170994 | 47.5 |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
